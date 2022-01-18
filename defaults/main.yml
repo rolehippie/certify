@@ -1,0 +1,12 @@
+# Standards: 1.2
+---
+# @var certify_default_certs:description: List of default certificates to write to server
+certify_default_certs: []
+
+# @var certify_extra_certs:description: List of extra certificates to write to server
+certify_extra_certs: []
+
+# @var certify_reload_services:description: List of services to reload after cert change
+certify_reload_services: []
+
+...

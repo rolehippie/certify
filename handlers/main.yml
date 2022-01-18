@@ -1,0 +1,10 @@
+# Standards: 1.2
+---
+- name: Reload services
+  loop: "{{ certify_reload_services }}"
+  systemd:
+    name: "{{ item }}"
+    state: reloaded
+    daemon_reload: True
+
+...
