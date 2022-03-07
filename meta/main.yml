@@ -21,6 +21,7 @@
 # @end
 galaxy_info:
   role_name: certify
+  namespace: rolehippie
   author: Thomas Boerger
   description: Ansible role to upload certificates to specific paths
   license: Apache-2.0
