@@ -60,7 +60,7 @@ certify_reload_services: []
 
 ## Dependencies
 
-- [rolehippie.docker](https://github.com/rolehippie/docker)
+- None
 
 ## License
 
