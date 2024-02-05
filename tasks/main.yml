@@ -1,4 +1,3 @@
-# Standards: 1.2
 ---
 - name: Upload cert content
   loop: "{{ certify_default_certs + certify_extra_certs }}"
