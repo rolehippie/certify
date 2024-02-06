@@ -1,4 +1,3 @@
-# Standards: 1.2
 ---
 - name: Upload cert content
   loop: "{{ certify_default_certs + certify_extra_certs }}"
@@ -6,7 +5,7 @@
     label: "{{ item.name }}"
   notify:
     - Reload services
-  copy:
+  ansible.builtin.copy:
     content: "{{ item.crt }}"
     dest: "/etc/ssl/certs/{{ item.name }}.crt"
     owner: "{{ item.owner | default('root') }}"
@@ -21,7 +20,7 @@
     label: "{{ item.name }}"
   notify:
     - Reload services
-  copy:
+  ansible.builtin.copy:
     content: "{{ item.key }}"
     dest: "/etc/ssl/private/{{ item.name }}.key"
     owner: "{{ item.owner | default('root') }}"

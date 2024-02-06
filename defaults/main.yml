@@ -1,4 +1,3 @@
-# Standards: 1.2
 ---
 # @var certify_default_certs:description: List of default certificates to write to server
 certify_default_certs: []
