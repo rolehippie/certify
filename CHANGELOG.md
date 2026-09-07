@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.5.0](https://github.com/rolehippie/certify/compare/v2.4.1...v2.5.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([4bdd20d](https://github.com/rolehippie/certify/commit/4bdd20df11ddbbb40ea70c8636d99d4969d92c3f))
+
 ## [2.4.1](https://github.com/rolehippie/certify/compare/v2.4.0...v2.4.1) (2026-08-31)
 
 ### Dependencies
